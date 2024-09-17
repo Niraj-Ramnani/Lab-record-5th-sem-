@@ -3,6 +3,7 @@
 #include<stdio.h>
 //#include<conio.h>
 void quick_sort(int arr[] , int first , int last);
+int partition(int arr[] , int first , int last);
 void display_arr(int arr[] , int n);
 void main(){
 int i,n;
