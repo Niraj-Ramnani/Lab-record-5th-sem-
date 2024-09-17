@@ -29,7 +29,7 @@ merge_sort(arr,mid + 1,last);
 merge(arr,first,mid,last);
 }
 void merge(int arr[] , int first , int mid , int last ){
-int left,right,i,j;
+int left,right,i;
 int temp[100];
 int ptr = 0;
 left = first;
