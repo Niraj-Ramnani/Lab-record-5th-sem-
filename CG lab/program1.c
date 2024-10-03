@@ -1,4 +1,4 @@
-// To plot a point (pixel) on the screen
+// aim : Write a c program To plot a point (pixel) on the screen
 #include<stdio.h>
 #include<conio.h>
 #include<graphics.h>
