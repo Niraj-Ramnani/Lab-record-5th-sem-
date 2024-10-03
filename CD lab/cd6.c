@@ -1,4 +1,4 @@
-// c program to calculate no of comment in the file and remove the comment from the file
+// c program to delete the comment line and print the line number 
 #include<stdio.h>
 #include<conio.h>
 void main(){
@@ -23,6 +23,7 @@ cmt++;
 printf("\nThere is a comment at line %d \n",line);
 while((ch = getc(fp)) != '\n'){
 continue;}
+line++;
 }
 if(ch != '/'){
 str[index++] = ch;
@@ -32,7 +33,7 @@ prev_ch = ch;
 printf("Total number of the comment in the file are %d ",cmt);
 str[index] = '\0';
 fclose(fp);
-printf("\n content of the file after removing contents from the file \n");
+printf("\n content of the file after removing comments from the file \n");
 printf("%s",str);
 getch();
 }
