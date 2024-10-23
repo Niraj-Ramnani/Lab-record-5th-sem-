@@ -22,4 +22,3 @@ printf("%c occured in file %d times \n ",'a' + i,count[i]);
 }
 // getch();
 }
-//the quick brown fox jumps over
