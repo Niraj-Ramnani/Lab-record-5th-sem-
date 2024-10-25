@@ -1,3 +1,5 @@
+// Write a c program to implement 0/1 knapsack 
+// description : The task of 0/1 knapsack is to put the item in the bag in such a way that sum of profit associated with them is maximum possible (we are not allowed to put part of an item )
 #include <stdio.h>
     int weight[50], values[50],i,w,n,W,max_value;
 
@@ -45,3 +47,5 @@ int main() {
     
     return 0;
 }
+
+//result : Maximum profit was calculated by 0/1 knapsack via dynamic programming 
