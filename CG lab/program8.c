@@ -71,13 +71,13 @@ void cohenSutherlandClip(int x1, int y1, int x2, int y2) {
 void main() {
     int gd = DETECT, gm;
     int x1, y1, x2, y2;
-
+     initgraph(&gd, &gm, "C:\\turboc3\\BGI");
     printf("Enter Window (xmin, ymin, xmax, ymax): ");
     scanf("%d %d %d %d", &xmin, &ymin, &xmax, &ymax);
     printf("Enter Line (x1, y1, x2, y2): ");
     scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
 
-    initgraph(&gd, &gm, "C:\\turboc3\\BGI");
+   
     rectangle(xmin, ymin, xmax, ymax);
 
     setcolor(RED);

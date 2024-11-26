@@ -49,6 +49,7 @@ void main() {
     int p[10][2];
 
     clrscr();
+   initgraph(&gd, &gm, "C:\\Turboc3\\BGI");
     printf("Enter Number of Polygon Points: ");
     scanf("%d", &np);
 
@@ -59,9 +60,6 @@ void main() {
 
     printf("Enter Clipping Window (x1 y1 x2 y2): ");
     scanf("%d %d %d %d", &x1, &y1, &x2, &y2);
-
-    initgraph(&gd, &gm, "C:\\Turboc3\\BGI");
-    cleardevice();
 
     rectangle(x1, y1, x2, y2);
 
@@ -78,7 +76,6 @@ void main() {
     clip(p, &np, x2, y2, x1, y2);
     clip(p, &np, x1, y2, x1, y1);
 
-    setcolor(GREEN);
     for (i = 0; i < np; i++) {
         if (i != np - 1)
             line(p[i][0], p[i][1], p[i + 1][0], p[i + 1][1]);
