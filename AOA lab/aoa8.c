@@ -1,4 +1,5 @@
 //Find Minimum Cost Spanning Tree of a given undirected graph using Kruskal's algorithm.
+//Kruskal's Algorithm: A greedy algorithm used to find the minimum spanning tree of a graph by sorting all the edges in increasing weight and adding them one by one, ensuring no cycles are formed.
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>

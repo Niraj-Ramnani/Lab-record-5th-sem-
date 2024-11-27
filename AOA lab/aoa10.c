@@ -1,4 +1,5 @@
 // Implement N Queen's problem using Back Tracking.
+//N-Queens Problem: A classic puzzle in which the goal is to place N queens on an N×N chessboard such that no two queens can attack each other, i.e., no two queens share the same row, column, or diagonal.
 #include <stdio.h>
 #include<conio.h>
 

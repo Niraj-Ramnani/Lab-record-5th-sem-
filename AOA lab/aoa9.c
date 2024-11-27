@@ -1,4 +1,5 @@
 //Find Minimum Cost Spanning Tree of a givenundirected graph using Prim’s algorithm.
+//Prim's Algorithm: A greedy algorithm for finding the minimum spanning tree by starting from a random node and progressively adding the nearest node to the growing tree, ensuring no cycles are formed.
 #include<stdio.h>
 #include<conio.h>
 int g[20][20], d[20], visited[20], p[20];
