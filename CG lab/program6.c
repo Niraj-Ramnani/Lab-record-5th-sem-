@@ -72,11 +72,6 @@ int main() {
 
     midX = getmaxx() / 2;
     midY = getmaxy() / 2;
-
-    setcolor(YELLOW);
-    line(0, midY, getmaxx(), midY);
-    line(midX, 0, midX, getmaxy());
-
     while (1) {
         cleardevice();
         setcolor(YELLOW);

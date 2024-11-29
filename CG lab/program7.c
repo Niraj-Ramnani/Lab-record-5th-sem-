@@ -7,15 +7,15 @@ int round(float num) {
     return (num > 0.0) ? (int)(num + 0.5) : (int)(num - 0.5);
 }
 
-void drawShape(float p[][2], int np, int xcenter, int ycenter) {
+void drawShape(float p[][2], int np, int xc, int yc) {
     int i;
     for (i = 0; i < np; i++) {
         if (i != np - 1)
-            line(round(p[i][0]) + xcenter, ycenter - round(p[i][1]), 
-                 round(p[i + 1][0]) + xcenter, ycenter - round(p[i + 1][1]));
+            line(round(p[i][0]) + xc, yc - round(p[i][1]), 
+                 round(p[i + 1][0]) + xc, yc - round(p[i + 1][1]));
         else
-            line(round(p[i][0]) + xcenter, ycenter - round(p[i][1]), 
-                 round(p[0][0]) + xcenter, ycenter - round(p[0][1]));
+            line(round(p[i][0]) + xc, yc - round(p[i][1]), 
+                 round(p[0][0]) + xc, yc - round(p[0][1]));
     }
 }
 
