@@ -37,7 +37,7 @@ public class Program7 extends JFrame {
         setContentPane(contentPane);
         contentPane.setLayout(null);
 
-        JLabel Title = new JLabel("Emp Management By PRITY");
+        JLabel Title = new JLabel("Emp Management By Niraj");
         Title.setHorizontalAlignment(SwingConstants.CENTER);
         Title.setForeground(new Color(0, 0, 255));
         Title.setFont(new Font("Tahoma", Font.BOLD, 20));

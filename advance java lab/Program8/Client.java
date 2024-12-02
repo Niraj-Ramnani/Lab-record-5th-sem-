@@ -7,7 +7,7 @@ public class Client {
             Adder adder = (Adder) Naming.lookup("rmi://localhost/AdderService");
 
             // Call the add method
-            System.out.println("Enter value for a ");
+            System.out.println("This Program is solved by Niraj");
             int result = adder.add(10, 7);
             System.out.println("Result of adding 10 and 7: " + result);
         } catch (Exception e) {

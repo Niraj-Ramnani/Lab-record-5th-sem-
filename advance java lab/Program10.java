@@ -14,7 +14,7 @@ public class Program10 {
 
  
     public static void main(String[] args) {
-    	System.out.println("This program is solved by Prerak ");
+    	System.out.println("This program is solved by Niraj ");
         try (Connection conn = getConnection()) {
             if (conn != null) {
                 System.out.println("Connected to the database successfully with jsp!");
